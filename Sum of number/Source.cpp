@@ -9,5 +9,6 @@ int main()
 		y = y + (x % 10);
 		x = x / 10;
 	}
+	printf("Sum is : ");
 	printf("%d", y);
 }
